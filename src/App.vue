@@ -1,66 +1,59 @@
 <template>
-  <header class="header">
-    <div>strona główna</div>
-    <div>portfolio</div>
-    <div>o mnie</div>
-    <div>kontakt</div>
-  </header>
-  <main>
-    <video
-      autoplay
-      muted
-      loop
-      id="myVideo"
-      style="
-        width: 70%;
-        max-width: 70%;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-      "
-    >
-      <source src="./assets/background.mp4" type="video/mp4" />
-    </video>
-  </main>
-  <footer></footer>
+  <div>
+    <Header />
+    <Hero />
+    <main>
+      <div class="devider">
+        <svg
+          id="visual"
+          viewBox="0 0 1920 1090"
+          width="1920"
+          height="1090"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          version="1.1"
+        >
+          <path
+            d="M0 93L40 186.2C80 279.3 160 465.7 240 486C320 506.3 400 360.7 480 373.8C560 387 640 559 720 603.5C800 648 880 565 960 464.3C1040 363.7 1120 245.3 1200 172C1280 98.7 1360 70.3 1440 78.3C1520 86.3 1600 130.7 1680 150C1760 169.3 1840 163.7 1880 160.8L1920 158L1920 0L1880 0C1840 0 1760 0 1680 0C1600 0 1520 0 1440 0C1360 0 1280 0 1200 0C1120 0 1040 0 960 0C880 0 800 0 720 0C640 0 560 0 480 0C400 0 320 0 240 0C160 0 80 0 40 0L0 0Z"
+            fill="#040007"
+            stroke-linecap="round"
+            stroke-linejoin="miter"
+          ></path>
+        </svg>
+      </div>
+      <Gallery />
+    </main>
+    <footer></footer>
+  </div>
 </template>
 
 <script>
+import Header from "./components/Header.vue";
+import Hero from "./components/Hero.vue";
+import Gallery from "./components/Gallery.vue";
+
 export default {
   name: "App",
+  components: { Header, Hero, Gallery },
 };
 </script>
 
-<style>
+<style lang="scss">
+@import "~@/assets/scss/vendors/bootstrap-vue/index";
 html,
 body {
   margin: 0;
   padding: 0;
   background-color: #040007;
 }
-.header {
-  padding: 20px;
-  padding-top: 40px;
-  display: flex;
-  justify-content: flex-end;
-  font-size: 35px;
-  font-family: "Josefin Sans", sans-serif;
-  position: sticky;
-  z-index: 10;
-}
-.header div {
-  margin-right: 20px;
-  color: #2f05bc;
-}
-.header div:hover {
-  color: #db015c;
-}
 main {
-  height: 130vh;
-  overflow: hidden;
-  margin-top: -18%;
+  background-image: url("./assets/purple.jpeg");
 }
-main video {
+.devider {
   width: 100%;
+  height: 80vh;
+  margin-top: -50px;
+  z-index: 0;
+  // background-color: #8d67ca;
 }
 </style>
