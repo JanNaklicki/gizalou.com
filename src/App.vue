@@ -29,7 +29,7 @@ body {
   background-color: #040007;
 }
 main {
-  background-image: url("./assets/purple.jpeg");
+  // background-image: url("./assets/purple.jpeg");
   background-size: cover;
   width: 100%;
 }

@@ -1,28 +1,7 @@
 <template>
   <div class="gallery">
     <b-container>
-      <b-row>
-        <b-col class="gallery__item" sm="12" xl="4">
-          <img src="../assets/art1.png" alt="" />
-        </b-col>
-        <b-col class="gallery__item" sm="12" xl="4">
-          <img src="../assets/art2.png" alt="" />
-        </b-col>
-        <b-col class="gallery__item" sm="12" xl="4">
-          <img src="../assets/art3.png" alt="" />
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col class="gallery__item" sm="12" xl="4">
-          <img src="../assets/art4.png" alt="" />
-        </b-col>
-        <b-col class="gallery__item" sm="12" xl="4">
-          <img src="../assets/art5.png" alt="" />
-        </b-col>
-        <b-col class="gallery__item" sm="12" xl="4">
-          <img src="../assets/art6.png" alt="" />
-        </b-col>
-      </b-row>
+      <b-row> ÷ </b-row>
     </b-container>
   </div>
 </template>
