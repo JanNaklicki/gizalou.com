@@ -1,10 +1,13 @@
 <template>
   <header class="header">
     <nav>
-      <div>strona główna</div>
-      <div>portfolio</div>
-      <div>o mnie</div>
-      <div>kontakt</div>
+      <div class="d-block d-sm-none"></div>
+      <div class="d-none d-sm-flex">
+        <div>strona główna</div>
+        <div>portfolio</div>
+        <div>o mnie</div>
+        <div>kontakt</div>
+      </div>
     </nav>
   </header>
 </template>
@@ -24,9 +27,11 @@ export default {
   position: sticky;
   z-index: 10;
   nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    div {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
   }
   div {
     margin-right: 20px;

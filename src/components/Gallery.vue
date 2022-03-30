@@ -1,27 +1,29 @@
 <template>
   <div class="gallery">
-    <b-row>
-      <b-col class="gallery__item" sm="12" xl="4">
-        <img src="../assets/art1.png" alt="" />
-      </b-col>
-      <b-col class="gallery__item" sm="12" xl="4">
-        <img src="../assets/art2.png" alt="" />
-      </b-col>
-      <b-col class="gallery__item" sm="12" xl="4">
-        <img src="../assets/art3.png" alt="" />
-      </b-col>
-    </b-row>
-    <b-row>
-      <b-col class="gallery__item" sm="12" xl="4">
-        <img src="../assets/art4.png" alt="" />
-      </b-col>
-      <b-col class="gallery__item" sm="12" xl="4">
-        <img src="../assets/art5.png" alt="" />
-      </b-col>
-      <b-col class="gallery__item" sm="12" xl="4">
-        <img src="../assets/art6.png" alt="" />
-      </b-col>
-    </b-row>
+    <b-container>
+      <b-row>
+        <b-col class="gallery__item" sm="12" xl="4">
+          <img src="../assets/art1.png" alt="" />
+        </b-col>
+        <b-col class="gallery__item" sm="12" xl="4">
+          <img src="../assets/art2.png" alt="" />
+        </b-col>
+        <b-col class="gallery__item" sm="12" xl="4">
+          <img src="../assets/art3.png" alt="" />
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col class="gallery__item" sm="12" xl="4">
+          <img src="../assets/art4.png" alt="" />
+        </b-col>
+        <b-col class="gallery__item" sm="12" xl="4">
+          <img src="../assets/art5.png" alt="" />
+        </b-col>
+        <b-col class="gallery__item" sm="12" xl="4">
+          <img src="../assets/art6.png" alt="" />
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
@@ -42,6 +44,8 @@ export default {};
   &__item {
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
+
     // padding: 50px;
 
     img {
@@ -50,6 +54,5 @@ export default {};
   }
 }
 .row {
-  margin-bottom: 30px;
 }
 </style>
