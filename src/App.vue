@@ -1,11 +1,8 @@
 <template>
   <div>
-    <!-- <Header />x -->
-    <!-- <Hero /> -->
-    <main>
-      <Gallery />
-    </main>
-    <footer></footer>
+    <Header />
+    <Hero />
+    <Gallery />
   </div>
 </template>
 
@@ -24,19 +21,9 @@ export default {
 @import "~@/assets/scss/vendors/bootstrap-vue/index";
 html,
 body {
+  background-color: black;
   margin: 0;
   padding: 0;
-  background-color: #040007;
-}
-main {
-  // background-image: url("./assets/purple.jpeg");
-  background-size: cover;
-  width: 100%;
-}
-.devider {
-  height: 80vh;
-  margin-top: -50px;
-  z-index: 0;
-  // background-color: #8d67ca;
+  font-family: "Montserrat", sans-serif;
 }
 </style>
