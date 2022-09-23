@@ -1,15 +1,20 @@
 <template>
-  <header class="header">
-    <nav>
-      <div class="d-block d-sm-none"></div>
-      <div class="d-none d-sm-flex">
-        <div>strona główna</div>
-        <div>portfolio</div>
-        <div>o mnie</div>
-        <div>kontakt</div>
-      </div>
-    </nav>
-  </header>
+  <b-navbar
+    toggleable="lg"
+    type="dark"
+    variant="dark"
+    style="background-color: black !important"
+  >
+    <b-navbar-toggle target="nav-collapse" class="ml-auto"></b-navbar-toggle>
+    <b-collapse id="nav-collapse" is-nav>
+      <b-navbar-nav class="ml-auto h4 p-3">
+        <b-nav-item href="#">Gallery</b-nav-item>
+        <b-nav-item href="#">Products</b-nav-item>
+        <b-nav-item href="#">About me</b-nav-item>
+        <b-nav-item href="#">Contact</b-nav-item>
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
 </template>
 
 <script>
@@ -19,26 +24,12 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.header {
-  padding: 20px;
-  padding-top: 40px;
-  font-size: 35px;
-  font-family: "Josefin Sans", sans-serif;
-  position: sticky;
-  z-index: 10;
-  nav {
-    div {
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-end;
-    }
-  }
-  div {
-    margin-right: 20px;
-    color: #2f05bc;
-  }
-  div:hover {
-    color: #db015c;
+.nav-link {
+  color: #da0053 !important;
+  font-family: "Amatic SC", cursive;
+  font-family: "Montserrat", sans-serif;
+  &:hover {
+    color: #fc1d72 !important;
   }
 }
 </style>

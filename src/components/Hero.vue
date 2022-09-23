@@ -1,20 +1,7 @@
 <template>
-  <div class="hero">
-    <video
-      autoplay
-      muted
-      loop
-      style="
-        width: 70%;
-        max-width: 70%;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-      "
-    >
-      <source src="../assets/background.mp4" type="video/mp4" />
-    </video>
-  </div>
+  <b-container fluid class="hero p-0">
+    <img src="../assets/ilonka.png" alt="" />
+  </b-container>
 </template>
 
 <script>
@@ -23,13 +10,21 @@ export default {};
 
 <style lang="scss">
 .hero {
-  height: 130vh;
+  background-color: white;
+  height: 95vh;
   overflow: hidden;
-  margin-top: -18%;
-  z-index: 10;
-  video {
+  position: sticky;
+  top: 0;
+  z-index: 0;
+  @include media-breakpoint-down(md) {
+    height: 70vh;
+  }
+  img {
     width: 100%;
-    z-index: 25;
+    height: 100%;
+    @include media-breakpoint-down(md) {
+      object-fit: cover;
+    }
   }
 }
 </style>
