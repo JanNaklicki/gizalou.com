@@ -1,7 +1,7 @@
 <template>
-  <b-container fluid class="hero p-0">
+  <div  class="hero p-0">
     <img src="../assets/ilonka.png" alt="" />
-  </b-container>
+  </div>
 </template>
 
 <script>
@@ -11,20 +11,19 @@ export default {};
 <style lang="scss">
 .hero {
   background-color: white;
-  height: 95vh;
+  height: 101vh;
   overflow: hidden;
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 0;
+  z-index: 1;
   @include media-breakpoint-down(md) {
     height: 70vh;
   }
+  width: 100vw;
   img {
     width: 100%;
     height: 100%;
-    @include media-breakpoint-down(md) {
-      object-fit: cover;
-    }
+    object-fit: cover;
   }
 }
 </style>

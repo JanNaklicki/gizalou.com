@@ -3,7 +3,7 @@
     toggleable="lg"
     type="dark"
     variant="dark"
-    style="background-color: black !important"
+    style="background-color: rgba(218, 0, 84, 0)!important; !important; z-index: 10;"
   >
     <b-navbar-toggle target="nav-collapse" class="ml-auto"></b-navbar-toggle>
     <b-collapse id="nav-collapse" is-nav>

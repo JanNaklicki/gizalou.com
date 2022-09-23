@@ -37,8 +37,12 @@ export default {};
 <style lang="scss">
 .gallery {
   position: relative;
-  z-index: 2;
+  z-index: 3;
   background-color: #000;
+  margin-top: 95vh;
+  @include media-breakpoint-down(md) {
+    margin-top: 50vh;
+  }
   &__title {
     color: rgb(233, 233, 233);
     display: flex;
