@@ -21,9 +21,10 @@ export default {
 @import "~@/assets/scss/vendors/bootstrap-vue/index";
 html,
 body {
-  background-color: black;
+  background-color: black!important;
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
 }
+
 </style>
