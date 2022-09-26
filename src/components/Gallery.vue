@@ -1,5 +1,5 @@
 <template>
-  <b-container fluid class="gallery">
+  <b-container fluid class="gallery" id="gallery">
     <b-row class="gallery__title">
       <h2 class="mt-5">GALLERY</h2>
       <h3 class="mt-3">Because every good mama makes an album of her babies</h3>
@@ -34,15 +34,9 @@
 export default {};
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .gallery {
-  position: relative;
-  z-index: 3;
   background-color: #000;
-  margin-top: 95vh;
-  @include media-breakpoint-down(md) {
-    margin-top: 50vh;
-  }
   &__title {
     color: rgb(233, 233, 233);
     display: flex;
