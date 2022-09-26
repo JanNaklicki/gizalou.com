@@ -28,10 +28,7 @@
           <h4>Drones And Robots Tournament</h4>
         </div>
         <div class="mt-4" style="text-align:end;">
-          Z ekipą z moonstreet znam się od lata 2020 roku, pierwsze co dla nich
-          stworzyłam to dwa plakaty dla ich Warszawskiej gry miejskiej - "Sen" i
-          "Kruk". Kliknęło i od tamtego czasu nieprzerwanie współpracujemy ze
-          sobą tworząc coraz to nowe przygody w różnych miastach...
+          Tutaj będzie ładny opis produktu :) Póki co proszę podziwiać grafiki. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lacinia lorem nec nibh venenatis pharetra. Phasellus eleifend, massa viverra vehicula aliquet, ipsum lectus dignissim tortor, mollis semper nibh justo eget elit. Donec vehicula pretium accumsan. In purus massa, ultrices nec orci eget, fringilla fermentum metus. Integer cursus turpis vel libero convallis, in vestibulum felis venenatis. Phasellus tristique erat eu felis laoreet, nec semper massa fermentum. 
         </div>
       </b-col>
     </b-row>
@@ -44,10 +41,7 @@
           <h4>Cirque Du So-Lou</h4>
         </div>
         <div class="mt-4">
-          Z ekipą z moonstreet znam się od lata 2020 roku, pierwsze co dla nich
-          stworzyłam to dwa plakaty dla ich Warszawskiej gry miejskiej - "Sen" i
-          "Kruk". Kliknęło i od tamtego czasu nieprzerwanie współpracujemy ze
-          sobą tworząc coraz to nowe przygody w różnych miastach...
+          Tutaj również w przyszłości pojawi się opis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lacinia lorem nec nibh venenatis pharetra. Phasellus eleifend, massa viverra vehicula aliquet, ipsum lectus dignissim tortor, mollis semper nibh justo eget elit. Donec vehicula pretium accumsan. In purus massa, ultrices nec orci eget, fringilla fermentum metus. Integer cursus turpis vel libero convallis, in vestibulum felis venenatis. Phasellus tristique erat eu felis laoreet, nec semper massa fermentum. 
         </div>
       </b-col>
     </b-row>
