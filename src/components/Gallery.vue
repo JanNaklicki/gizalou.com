@@ -1,30 +1,32 @@
 <template>
-  <b-container fluid class="gallery">
+  <b-container fluid class="gallery" id="gallery">
     <b-row class="gallery__title">
       <h2 class="mt-5">GALLERY</h2>
       <h3 class="mt-3">Because every good mama makes an album of her babies</h3>
     </b-row>
     <b-card-group columns class="gallery__masonry">
       <div class="gallery__card">
+        <img src="../assets/6-thubnail.png" alt="" class="mt-4 p-2" />
+        <img src="../assets/3-thubnail.png" alt="" class="mt-4 p-2" />
         <img src="../assets/1-thubnail.png" alt="" class="mt-4 p-2" />
+        <img src="../assets/20.png" alt="" class="mt-4 p-2" />
         <img src="../assets/0-thubnail.png" alt="" class="mt-4 p-2" />
         <img src="../assets/2-thubnail.png" alt="" class="mt-4 p-2" />
-        <img src="../assets/3-thubnail.png" alt="" class="mt-4 p-2" />
         <img src="../assets/4-thubnail.png" alt="" class="mt-4 p-2" />
+        <img src="../assets/21.png" alt="" class="mt-4 p-2" />
         <img src="../assets/5-thubnail.png" alt="" class="mt-4 p-2" />
-        <img src="../assets/6-thubnail.png" alt="" class="mt-4 p-2" />
         <img src="../assets/7-thubnail.png" alt="" class="mt-4 p-2" />
         <img src="../assets/8-thubnail.png" alt="" class="mt-4 p-2" />
-        <img src="../assets/9-thubnail.png" alt="" class="mt-4 p-2" />
         <img src="../assets/10-thubnail.png" alt="" class="mt-4 p-2" />
         <img src="../assets/11-thubnail.png" alt="" class="mt-4 p-2" />
-        <img src="../assets/12-thubnail.png" alt="" class="mt-4 p-2" />
-        <img src="../assets/13-thubnail.png" alt="" class="mt-4 p-2" />
         <img src="../assets/14-thubnail.png" alt="" class="mt-4 p-2" />
+        <img src="../assets/12-thubnail.png" alt="" class="mt-4 p-2" />
         <img src="../assets/15-thubnail.png" alt="" class="mt-4 p-2" />
         <img src="../assets/16-thubnail.png" alt="" class="mt-4 p-2" />
         <img src="../assets/17-thubnail.png" alt="" class="mt-4 p-2" />
         <img src="../assets/18-thubnail.png" alt="" class="mt-4 p-2" />
+        <img src="../assets/19.png" alt="" class="mt-4 p-2" />
+        <img src="../assets/9-thubnail.png" alt="" class="mt-4 p-2" />
       </div>
     </b-card-group>
   </b-container>
@@ -34,15 +36,9 @@
 export default {};
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .gallery {
-  position: relative;
-  z-index: 3;
   background-color: #000;
-  margin-top: 95vh;
-  @include media-breakpoint-down(md) {
-    margin-top: 50vh;
-  }
   &__title {
     color: rgb(233, 233, 233);
     display: flex;
