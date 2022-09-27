@@ -15,7 +15,7 @@
           <h4>Tajemnice Podwójnego Miasta</h4>
         </div>
         <div class="mt-4">
-            Z ekipą z moonstreet znam się od lata 2020 roku, pierwsze co dla nich stworzyłam to dwa plakaty dla ich Warszawskiej gry miejskiej - "Sen" i "Kruk". Kliknęło i od tamtego czasu nieprzerwanie współpracujemy ze sobą tworząc coraz to nowe przygody w różnych miastach w Polsce. Ja oczywiście odpowiedzialna jestem za całą część kreatywną tego projektu, w tym przypadku byłam odpowiedzialna za wszystkie rekwizyty i motywy Sekretów Podwójnego Miasta we Wrocławiu, gdzie gracz wciela się w rolę wybrańca, który ma zostać nowym królem Wrocławia, wszystkim steruje tajne Stowarzyszenie 3 Mojry - stąd motyw trzech kobiet oraz królewskiej korony, rekwizyty dodatkowo wyposażone są w wiele zagadek, które uczestnik odkrywa kawałek po kawałku..
+            Z ekipą z moonstreet znam się od lata 2020 roku, pierwsze co dla nich stworzyłam to dwa plakaty dla ich Warszawskiej gry miejskiej - "Sen" i "Kruk". Kliknęło i od tamtego czasu nieprzerwanie współpracujemy ze sobą tworząc coraz to nowe przygody w różnych miastach w Polsce. Ja oczywiście odpowiedzialna jestem za całą część kreatywną, w tym przypadku odpowiadałam za wszystkie rekwizyty i motywy Sekretów Podwójnego Miasta we Wrocławiu, gdzie gracz wciela się w rolę wybrańca, który ma zostać nowym królem Wrocławia, wszystkim steruje tajne Stowarzyszenie 3 Mojry - stąd motyw trzech kobiet oraz królewskiej korony, rekwizyty dodatkowo wyposażone są w wiele zagadek i szyfrów, które uczestnik odkrywa kawałek po kawałku...
         </div>
       </b-col>
     </b-row>
@@ -28,7 +28,7 @@
           <h4>Drones And Robots Tournament</h4>
         </div>
         <div class="mt-4" style="text-align:end;">
-          Tutaj będzie ładny opis produktu :) Póki co proszę podziwiać grafiki. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lacinia lorem nec nibh venenatis pharetra. Phasellus eleifend, massa viverra vehicula aliquet, ipsum lectus dignissim tortor, mollis semper nibh justo eget elit. Donec vehicula pretium accumsan. In purus massa, ultrices nec orci eget, fringilla fermentum metus. Integer cursus turpis vel libero convallis, in vestibulum felis venenatis. Phasellus tristique erat eu felis laoreet, nec semper massa fermentum. 
+          DART to projekt, który wspominam niezwykle ciepło. Fajnie było móc połączyć moje zainteresowanie techniką z zamiłowaniem do grafiki. Czuję jakby każda robotyczna ikonka, którą wtedy narysowałam miała własny charakter! A gdy odwiedziłam event i zobaczyłam efekty i jak te charaktery wyróżniają się na poszczególnych grafikach i opisują różnych uczestników wiedziałam, że szybko o tym projekcie nie zapomnę... mam nadzieję, że tylko takie wspomnienia stworzę z nimi w kolejnych edycjach.
         </div>
       </b-col>
     </b-row>
@@ -41,7 +41,7 @@
           <h4>Cirque Du So-Lou</h4>
         </div>
         <div class="mt-4">
-          Tutaj również w przyszłości pojawi się opis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lacinia lorem nec nibh venenatis pharetra. Phasellus eleifend, massa viverra vehicula aliquet, ipsum lectus dignissim tortor, mollis semper nibh justo eget elit. Donec vehicula pretium accumsan. In purus massa, ultrices nec orci eget, fringilla fermentum metus. Integer cursus turpis vel libero convallis, in vestibulum felis venenatis. Phasellus tristique erat eu felis laoreet, nec semper massa fermentum. 
+          To forma, która wyszła z przypadku! Gdy wymyślałam swoje przyjęcie urodzinowe, właśnie w cyrkowej tematyce, akurat złożyło mi się zadanie na studiach w akademii, mieliśmy stworzyć pełna wizualizacje dowolnego produktu czy usługi. Postanowiłam przenieść mój cyrk na ramy prawdziwego przedsięwzięcia a ze zwykłej imprezy zrobić produkt, który przyniesie mi zaliczenie. Oczywiście wszystko się udało.
         </div>
       </b-col>
     </b-row>

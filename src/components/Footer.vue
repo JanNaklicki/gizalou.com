@@ -7,6 +7,7 @@
           <p><b class="h4">Julia Giza</b></p>
           <p><b-icon-instagram/> <a href="https://www.instagram.com/giza.lou/"> @giza.lou</a></p>
           <p><b-icon-telephone/> <a href="tel:+48 502 625 276">+48 502 625 276</a></p>
+          <p><b-icon-envelope/><span style="color: #df0160;"> gizalou.art@gmail.com</span></p>
         </b-col>
       </b-row>
     </b-container>
