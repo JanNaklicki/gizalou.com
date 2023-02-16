@@ -6,7 +6,6 @@
           <b-col>
             <h2 class="mb-5 h1">ABOUT ME</h2>
             <h3 class="h3">Me myself and I</h3>
-            <h4 class="h4">University(2021-2024)</h4>
             <p class="mt-4">
               I study Industrial Design Engineering at Politechnika Krakowska
               which means that I work with different materials and I have to use
@@ -16,7 +15,7 @@
             </p>
           </b-col>
         </b-row>
-        <b-row class="mt-3">
+        <b-row>
           <b-col>
             <h3 class="h3">In private</h3>
             <h4 class="h4">Meet me on my insta! <a href="">(@giza.lou)</a></h4>

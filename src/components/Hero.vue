@@ -5,7 +5,10 @@
         <h1 class="h1">@GIZA<span style="color: #df0160">LOU</span></h1>
         <h2 class="h6">JUST MAKIN' THINGS ARTSY</h2>
       </div>
-      <img src="../assets/ilonka2.gif" alt="" />
+      <!-- <img src="../assets/ilonka2.gif" alt="" /> -->
+      <video width="1920" height="1080" autoplay muted loop>
+        <source src="../assets/background.mp4" type="video/mp4" />
+      </video>
     </b-container>
   </div>
 </template>
@@ -21,13 +24,13 @@ export default {};
   overflow: hidden;
   position: fixed;
   top: 0;
-  background-color: #030007;
+  background-color: #000;
   z-index: 1;
   @include media-breakpoint-down(md) {
     display: flex;
     justify-content: center;
   }
-  img {
+  video {
     width: 80%;
     height: 100%;
     object-fit: cover;
@@ -53,8 +56,8 @@ export default {};
     }
     @include media-breakpoint-down(md) {
       h1 {
-      font-size: 2.5rem;
-    }
+        font-size: 2.5rem;
+      }
       top: 80vh;
       left: auto;
     }
